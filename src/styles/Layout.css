@@ -1,0 +1,32 @@
+/* 정말 작은 버튼 */
+.home-button {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(6px);
+
+  padding: 3px 4px;   /* 패딩 최소화 */
+  border-radius: 8px;
+  border: none;
+
+  cursor: pointer;
+  z-index: 9999;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+/* 아이콘 사이즈 극소형 */
+.home-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* hover 효과도 아주 약하게 */
+.home-button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}

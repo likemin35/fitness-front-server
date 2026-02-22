@@ -1,0 +1,82 @@
+.facility-container {
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #ffffff, #f4f0f6, #e8e4f0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.facility-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.facility-input-box {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-row label {
+  font-weight: 600;
+}
+
+.input-row input,
+.input-row select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.facility-btn {
+  margin-top: 10px;
+  padding: 14px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.facility-btn:hover {
+  background: #333;
+}
+
+.loading {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.error {
+  margin-top: 20px;
+  color: red;
+  font-weight: 600;
+  text-align: center;
+}
+
+.facility-results {
+  width: 500px;
+  margin-top: 40px;
+}
+
+.facility-card {
+  padding: 16px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+}
