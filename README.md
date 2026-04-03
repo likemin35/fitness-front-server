@@ -8,6 +8,11 @@
 - AWS CloudFront로 배포
 - 운영 주소: [http://d3qp27rgd1nnd.cloudfront.net](http://d3qp27rgd1nnd.cloudfront.net)
 
+## Related Repositories
+
+- AI Server: [fitness_AI_server](https://github.com/likemin35/fitness_AI_server)
+- Backend: [fitness-BE-server](https://github.com/likemin35/fitness-BE-server)
+
 ## Overview
 
 - React 기반 단일 페이지 애플리케이션
